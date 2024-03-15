@@ -1,0 +1,2 @@
+==> ERROR: You do not have sufficient permissions to read the pacman keyring.
+==> Use 'pacman-key --init' to correct the keyring permissions.

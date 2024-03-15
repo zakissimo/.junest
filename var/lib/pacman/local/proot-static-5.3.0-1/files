@@ -1,0 +1,6 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/proot-arm
+usr/bin/proot-x86_64
+

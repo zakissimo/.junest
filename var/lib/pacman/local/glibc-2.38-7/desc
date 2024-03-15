@@ -1,0 +1,49 @@
+%NAME%
+glibc
+
+%VERSION%
+2.38-7
+
+%BASE%
+glibc
+
+%DESC%
+GNU C Library
+
+%URL%
+https://www.gnu.org/software/libc
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1696364410
+
+%INSTALLDATE%
+1704815395
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%SIZE%
+49632501
+
+%REASON%
+1
+
+%LICENSE%
+GPL
+LGPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+linux-api-headers>=4.10
+tzdata
+filesystem
+
+%OPTDEPENDS%
+gd: for memusagestat
+perl: for mtrace
+

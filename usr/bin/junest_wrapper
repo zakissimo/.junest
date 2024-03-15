@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+eval "junest_args_array=(${JUNEST_ARGS:-ns})"
+junest "${junest_args_array[@]}" -- $(basename ${0}) "$@"
